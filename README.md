@@ -13,7 +13,7 @@ modify $AttackerIP
 
 **3. Upload attack_sh.txt and attack.txt to web** 
 
-![alt text]([http://url/to/img.png](https://github.com/jason61306/Cyber-Attack-Simulation-by-Ghostcat-and-Caldera/blob/main/img/img.png?raw=true))
+![image](https://github.com/jason61306/Cyber-Attack-Simulation-by-Ghostcat-and-Caldera/blob/main/img/img.png)
 
 **4. Modify attack.py** 
 
